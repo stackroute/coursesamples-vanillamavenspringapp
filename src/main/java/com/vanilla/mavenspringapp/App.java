@@ -19,6 +19,6 @@ public class App
     	// This is how, we can get the Bean from the ApplicationContext 
         HelloWorld helloObj = (HelloWorld) context.getBean(HelloWorld.class);
         
-        helloObj.getMessage();
+        helloObj.getMessage();   
     }
 }
